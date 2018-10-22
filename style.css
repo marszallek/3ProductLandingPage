@@ -1,0 +1,68 @@
+body
+{
+    background-color: grey;
+}
+#container
+{
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: grey;
+}
+#header
+{
+    text-align: center;
+}
+
+#fixed
+{
+    position: fixed;
+    top: 0px;
+    background-color: white;
+    width: 60%;
+}
+#header-img
+{
+    width: 15%;
+    height: 15%;
+    float: left;
+}
+#nav-bar
+{
+    margin-left: auto;
+    margin-top: 2em;
+}
+#text
+{
+    padding-top: 3em;
+    color: rgb(89, 189, 189);
+    font-size: 3em;
+}
+
+#main
+{
+    flex-direction: column;
+}
+footer
+{
+    background-color: black;
+    color: white;
+}
+.nav-link
+{
+    border: 1px solid grey;
+    text-decoration: none;
+    margin-left: 6em;
+    letter-spacing: 1px;
+    padding: 1%;
+    background-color: rgb(177, 153, 153);
+}
+.nav-link:visited
+{
+    color: white;
+}
+.nav-link:hover
+{
+    background-color: black;
+    color: red;
+}
